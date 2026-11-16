@@ -4,6 +4,8 @@ deslop is a Claude skill that revises a draft to remove the fingerprints of LLM-
 
 The pass changes how the text is written, not what it says. It doesn't detect authorship, and it doesn't invent details to make text sound human.
 
+For the research behind it, read [`references/research.md`](references/research.md). It covers the studies, the corpora, the effect sizes, which tells held across model generations and which faded, and the experiments that shaped each rule.
+
 ## Example
 
 A client email in Claude's default style (228 words, 3 Claude tells) opens like this:
