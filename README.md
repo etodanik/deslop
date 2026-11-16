@@ -17,9 +17,6 @@ A client email in Claude's default style (228 words, 3 Claude tells) opens like 
 After one pass (132 words, 0 Claude tells, no facts dropped):
 
 > Your website launch will slip two weeks, from March 3 to March 17. The payment provider's API review is taking longer than we planned, and we can't go live with payments until it's done.
-
-The news comes first, the throat-clearing is gone, and every date survives. More pairs are in `evals/` and the bench viewer (`evals/viewer_standalone.html`).
-
 ## Install
 
 Copy this folder into your skills directory:
