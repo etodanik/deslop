@@ -2,8 +2,6 @@
 
 deslop is a Claude skill that revises a draft to remove the fingerprints of LLM-generated prose. Its rules come from corpus-linguistics and psycholinguistics research comparing human and model text, and they were checked against three public corpora in which humans and models answered the same prompts.
 
-The pass changes how the text is written, not what it says. It doesn't detect authorship, and it doesn't invent details to make text sound human.
-
 The research behind it is in [`references/research.md`](references/research.md).
 
 ## Example
