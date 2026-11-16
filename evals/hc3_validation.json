@@ -1,0 +1,802 @@
+{
+ "by_source": {
+  "reddit_eli5": {
+   "human": {
+    "closing_recap": {
+     "mean": 0.005,
+     "median": 0.0,
+     "n": 14396
+    },
+    "contrast_frames_per_1k": {
+     "mean": 0.269,
+     "median": 0.0,
+     "n": 14396
+    },
+    "direct_first_sentence": {
+     "mean": 0.14,
+     "median": 0,
+     "n": 781
+    },
+    "echo_fragments_per_1k": {
+     "mean": 0.436,
+     "median": 0.0,
+     "n": 14396
+    },
+    "first_sentence_from_question": {
+     "mean": 0.181,
+     "median": 0.13,
+     "n": 14396
+    },
+    "importance_flags_per_1k": {
+     "mean": 0.005,
+     "median": 0.0,
+     "n": 14396
+    },
+    "length_ratio": {
+     "mean": 4.879,
+     "median": 3.0,
+     "n": 14396
+    },
+    "novelty": {
+     "mean": 0.904,
+     "median": 0.92,
+     "n": 14396
+    },
+    "participial_clauses_per_1k": {
+     "mean": 2.029,
+     "median": 0.0,
+     "n": 14396
+    },
+    "restates_question": {
+     "mean": 0.037,
+     "median": 0.0,
+     "n": 14396
+    },
+    "word_length": {
+     "mean": 4.502,
+     "median": 4.49,
+     "n": 14396
+    },
+    "words": {
+     "mean": 147.97,
+     "median": 98.0,
+     "n": 14396
+    }
+   },
+   "chatgpt": {
+    "closing_recap": {
+     "mean": 0.052,
+     "median": 0.0,
+     "n": 16622
+    },
+    "contrast_frames_per_1k": {
+     "mean": 0.192,
+     "median": 0.0,
+     "n": 16622
+    },
+    "direct_first_sentence": {
+     "mean": 0.258,
+     "median": 0.0,
+     "n": 906
+    },
+    "echo_fragments_per_1k": {
+     "mean": 0.071,
+     "median": 0.0,
+     "n": 16622
+    },
+    "first_sentence_from_question": {
+     "mean": 0.315,
+     "median": 0.29,
+     "n": 16622
+    },
+    "importance_flags_per_1k": {
+     "mean": 0.001,
+     "median": 0.0,
+     "n": 16622
+    },
+    "length_ratio": {
+     "mean": 5.691,
+     "median": 5.2,
+     "n": 16622
+    },
+    "novelty": {
+     "mean": 0.875,
+     "median": 0.89,
+     "n": 16622
+    },
+    "participial_clauses_per_1k": {
+     "mean": 1.572,
+     "median": 0.0,
+     "n": 16622
+    },
+    "restates_question": {
+     "mean": 0.121,
+     "median": 0.0,
+     "n": 16622
+    },
+    "word_length": {
+     "mean": 4.564,
+     "median": 4.55,
+     "n": 16622
+    },
+    "words": {
+     "mean": 175.464,
+     "median": 174.0,
+     "n": 16622
+    }
+   }
+  },
+  "open_qa": {
+   "human": {
+    "closing_recap": {
+     "mean": 0,
+     "median": 0,
+     "n": 449
+    },
+    "contrast_frames_per_1k": {
+     "mean": 0.062,
+     "median": 0.0,
+     "n": 449
+    },
+    "echo_fragments_per_1k": {
+     "mean": 0.0,
+     "median": 0.0,
+     "n": 449
+    },
+    "first_sentence_from_question": {
+     "mean": 0.096,
+     "median": 0.08,
+     "n": 449
+    },
+    "importance_flags_per_1k": {
+     "mean": 0.0,
+     "median": 0.0,
+     "n": 449
+    },
+    "length_ratio": {
+     "mean": 7.868,
+     "median": 6.8,
+     "n": 449
+    },
+    "novelty": {
+     "mean": 0.907,
+     "median": 0.92,
+     "n": 449
+    },
+    "participial_clauses_per_1k": {
+     "mean": 2.821,
+     "median": 0.0,
+     "n": 449
+    },
+    "restates_question": {
+     "mean": 0.002,
+     "median": 0,
+     "n": 449
+    },
+    "word_length": {
+     "mean": 5.028,
+     "median": 4.97,
+     "n": 449
+    },
+    "words": {
+     "mean": 45.512,
+     "median": 39,
+     "n": 449
+    }
+   },
+   "chatgpt": {
+    "closing_recap": {
+     "mean": 0.013,
+     "median": 0.0,
+     "n": 1124
+    },
+    "contrast_frames_per_1k": {
+     "mean": 0.05,
+     "median": 0.0,
+     "n": 1124
+    },
+    "echo_fragments_per_1k": {
+     "mean": 0.013,
+     "median": 0.0,
+     "n": 1124
+    },
+    "first_sentence_from_question": {
+     "mean": 0.257,
+     "median": 0.22,
+     "n": 1124
+    },
+    "importance_flags_per_1k": {
+     "mean": 0.0,
+     "median": 0.0,
+     "n": 1124
+    },
+    "length_ratio": {
+     "mean": 21.46,
+     "median": 18.7,
+     "n": 1124
+    },
+    "novelty": {
+     "mean": 0.936,
+     "median": 0.95,
+     "n": 1124
+    },
+    "participial_clauses_per_1k": {
+     "mean": 2.319,
+     "median": 0.0,
+     "n": 1124
+    },
+    "restates_question": {
+     "mean": 0.054,
+     "median": 0.0,
+     "n": 1124
+    },
+    "word_length": {
+     "mean": 4.833,
+     "median": 4.8,
+     "n": 1124
+    },
+    "words": {
+     "mean": 123.111,
+     "median": 107.0,
+     "n": 1124
+    }
+   }
+  },
+  "wiki_csai": {
+   "human": {
+    "closing_recap": {
+     "mean": 0.002,
+     "median": 0,
+     "n": 825
+    },
+    "contrast_frames_per_1k": {
+     "mean": 0.055,
+     "median": 0.0,
+     "n": 825
+    },
+    "echo_fragments_per_1k": {
+     "mean": 0.011,
+     "median": 0.0,
+     "n": 825
+    },
+    "first_sentence_from_question": {
+     "mean": 0.167,
+     "median": 0.14,
+     "n": 825
+    },
+    "importance_flags_per_1k": {
+     "mean": 0.0,
+     "median": 0.0,
+     "n": 825
+    },
+    "length_ratio": {
+     "mean": 31.768,
+     "median": 26.7,
+     "n": 825
+    },
+    "novelty": {
+     "mean": 0.962,
+     "median": 0.97,
+     "n": 825
+    },
+    "participial_clauses_per_1k": {
+     "mean": 3.022,
+     "median": 0.0,
+     "n": 825
+    },
+    "restates_question": {
+     "mean": 0.001,
+     "median": 0,
+     "n": 825
+    },
+    "word_length": {
+     "mean": 5.494,
+     "median": 5.46,
+     "n": 825
+    },
+    "words": {
+     "mean": 197.143,
+     "median": 166,
+     "n": 825
+    }
+   },
+   "chatgpt": {
+    "closing_recap": {
+     "mean": 0.002,
+     "median": 0,
+     "n": 837
+    },
+    "contrast_frames_per_1k": {
+     "mean": 0.051,
+     "median": 0.0,
+     "n": 837
+    },
+    "echo_fragments_per_1k": {
+     "mean": 0.006,
+     "median": 0.0,
+     "n": 837
+    },
+    "first_sentence_from_question": {
+     "mean": 0.206,
+     "median": 0.18,
+     "n": 837
+    },
+    "importance_flags_per_1k": {
+     "mean": 0.0,
+     "median": 0.0,
+     "n": 837
+    },
+    "length_ratio": {
+     "mean": 29.898,
+     "median": 29.9,
+     "n": 837
+    },
+    "novelty": {
+     "mean": 0.963,
+     "median": 0.97,
+     "n": 837
+    },
+    "participial_clauses_per_1k": {
+     "mean": 2.646,
+     "median": 0.0,
+     "n": 837
+    },
+    "restates_question": {
+     "mean": 0,
+     "median": 0,
+     "n": 837
+    },
+    "word_length": {
+     "mean": 5.197,
+     "median": 5.2,
+     "n": 837
+    },
+    "words": {
+     "mean": 185.926,
+     "median": 188,
+     "n": 837
+    }
+   }
+  },
+  "finance": {
+   "human": {
+    "closing_recap": {
+     "mean": 0.005,
+     "median": 0,
+     "n": 3691
+    },
+    "contrast_frames_per_1k": {
+     "mean": 0.159,
+     "median": 0.0,
+     "n": 3691
+    },
+    "direct_first_sentence": {
+     "mean": 0.13,
+     "median": 0,
+     "n": 791
+    },
+    "echo_fragments_per_1k": {
+     "mean": 0.307,
+     "median": 0.0,
+     "n": 3691
+    },
+    "first_sentence_from_question": {
+     "mean": 0.126,
+     "median": 0.08,
+     "n": 3691
+    },
+    "importance_flags_per_1k": {
+     "mean": 0.007,
+     "median": 0.0,
+     "n": 3691
+    },
+    "length_ratio": {
+     "mean": 20.528,
+     "median": 13.6,
+     "n": 3691
+    },
+    "novelty": {
+     "mean": 0.945,
+     "median": 0.96,
+     "n": 3691
+    },
+    "participial_clauses_per_1k": {
+     "mean": 1.472,
+     "median": 0.0,
+     "n": 3691
+    },
+    "restates_question": {
+     "mean": 0.019,
+     "median": 0,
+     "n": 3691
+    },
+    "word_length": {
+     "mean": 4.476,
+     "median": 4.46,
+     "n": 3691
+    },
+    "words": {
+     "mean": 182.898,
+     "median": 137,
+     "n": 3691
+    }
+   },
+   "chatgpt": {
+    "closing_recap": {
+     "mean": 0.016,
+     "median": 0,
+     "n": 3885
+    },
+    "contrast_frames_per_1k": {
+     "mean": 0.101,
+     "median": 0.0,
+     "n": 3885
+    },
+    "direct_first_sentence": {
+     "mean": 0.29,
+     "median": 0.0,
+     "n": 832
+    },
+    "echo_fragments_per_1k": {
+     "mean": 0.006,
+     "median": 0.0,
+     "n": 3885
+    },
+    "first_sentence_from_question": {
+     "mean": 0.344,
+     "median": 0.31,
+     "n": 3885
+    },
+    "importance_flags_per_1k": {
+     "mean": 0.001,
+     "median": 0.0,
+     "n": 3885
+    },
+    "length_ratio": {
+     "mean": 23.287,
+     "median": 19.8,
+     "n": 3885
+    },
+    "novelty": {
+     "mean": 0.917,
+     "median": 0.92,
+     "n": 3885
+    },
+    "participial_clauses_per_1k": {
+     "mean": 1.548,
+     "median": 0.0,
+     "n": 3885
+    },
+    "restates_question": {
+     "mean": 0.138,
+     "median": 0,
+     "n": 3885
+    },
+    "word_length": {
+     "mean": 4.77,
+     "median": 4.75,
+     "n": 3885
+    },
+    "words": {
+     "mean": 210.275,
+     "median": 209,
+     "n": 3885
+    }
+   }
+  },
+  "medicine": {
+   "human": {
+    "closing_recap": {
+     "mean": 0.002,
+     "median": 0,
+     "n": 1171
+    },
+    "contrast_frames_per_1k": {
+     "mean": 0.036,
+     "median": 0.0,
+     "n": 1171
+    },
+    "direct_first_sentence": {
+     "mean": 0.022,
+     "median": 0.0,
+     "n": 322
+    },
+    "echo_fragments_per_1k": {
+     "mean": 0.186,
+     "median": 0.0,
+     "n": 1171
+    },
+    "first_sentence_from_question": {
+     "mean": 0.156,
+     "median": 0.1,
+     "n": 1171
+    },
+    "importance_flags_per_1k": {
+     "mean": 0.0,
+     "median": 0.0,
+     "n": 1171
+    },
+    "length_ratio": {
+     "mean": 1.37,
+     "median": 1.2,
+     "n": 1171
+    },
+    "novelty": {
+     "mean": 0.891,
+     "median": 0.9,
+     "n": 1171
+    },
+    "participial_clauses_per_1k": {
+     "mean": 1.16,
+     "median": 0.0,
+     "n": 1171
+    },
+    "restates_question": {
+     "mean": 0.024,
+     "median": 0,
+     "n": 1171
+    },
+    "word_length": {
+     "mean": 4.766,
+     "median": 4.73,
+     "n": 1171
+    },
+    "words": {
+     "mean": 88.386,
+     "median": 78,
+     "n": 1171
+    }
+   },
+   "chatgpt": {
+    "closing_recap": {
+     "mean": 0.022,
+     "median": 0.0,
+     "n": 1222
+    },
+    "contrast_frames_per_1k": {
+     "mean": 0.374,
+     "median": 0.0,
+     "n": 1222
+    },
+    "direct_first_sentence": {
+     "mean": 0.03,
+     "median": 0.0,
+     "n": 338
+    },
+    "echo_fragments_per_1k": {
+     "mean": 0.029,
+     "median": 0.0,
+     "n": 1222
+    },
+    "first_sentence_from_question": {
+     "mean": 0.354,
+     "median": 0.33,
+     "n": 1222
+    },
+    "importance_flags_per_1k": {
+     "mean": 0.0,
+     "median": 0.0,
+     "n": 1222
+    },
+    "length_ratio": {
+     "mean": 2.999,
+     "median": 2.8,
+     "n": 1222
+    },
+    "novelty": {
+     "mean": 0.882,
+     "median": 0.89,
+     "n": 1222
+    },
+    "participial_clauses_per_1k": {
+     "mean": 2.644,
+     "median": 0.0,
+     "n": 1222
+    },
+    "restates_question": {
+     "mean": 0.167,
+     "median": 0.0,
+     "n": 1222
+    },
+    "word_length": {
+     "mean": 4.964,
+     "median": 4.96,
+     "n": 1222
+    },
+    "words": {
+     "mean": 190.562,
+     "median": 186.0,
+     "n": 1222
+    }
+   }
+  }
+ },
+ "sample_40": {
+  "human": {
+   "closing_recap": {
+    "mean": 0,
+    "median": 0.0,
+    "n": 40
+   },
+   "contrast_frames_per_1k": {
+    "mean": 0.231,
+    "median": 0.0,
+    "n": 40
+   },
+   "direct_first_sentence": {
+    "mean": 0,
+    "median": 0.0,
+    "n": 4
+   },
+   "echo_fragments_per_1k": {
+    "mean": 0.52,
+    "median": 0.0,
+    "n": 40
+   },
+   "first_sentence_from_question": {
+    "mean": 0.114,
+    "median": 0.095,
+    "n": 40
+   },
+   "importance_flags_per_1k": {
+    "mean": 0.0,
+    "median": 0.0,
+    "n": 40
+   },
+   "length_ratio": {
+    "mean": 10.75,
+    "median": 6.65,
+    "n": 40
+   },
+   "novelty": {
+    "mean": 0.928,
+    "median": 0.94,
+    "n": 40
+   },
+   "participial_clauses_per_1k": {
+    "mean": 2.351,
+    "median": 0.0,
+    "n": 40
+   },
+   "restates_question": {
+    "mean": 0,
+    "median": 0.0,
+    "n": 40
+   },
+   "word_length": {
+    "mean": 4.745,
+    "median": 4.665,
+    "n": 40
+   },
+   "words": {
+    "mean": 142.3,
+    "median": 106.5,
+    "n": 40
+   }
+  },
+  "chatgpt": {
+   "closing_recap": {
+    "mean": 0,
+    "median": 0.0,
+    "n": 36
+   },
+   "contrast_frames_per_1k": {
+    "mean": 0.0,
+    "median": 0.0,
+    "n": 36
+   },
+   "direct_first_sentence": {
+    "mean": 0,
+    "median": 0.0,
+    "n": 4
+   },
+   "echo_fragments_per_1k": {
+    "mean": 0.0,
+    "median": 0.0,
+    "n": 36
+   },
+   "first_sentence_from_question": {
+    "mean": 0.293,
+    "median": 0.25,
+    "n": 36
+   },
+   "importance_flags_per_1k": {
+    "mean": 0.0,
+    "median": 0.0,
+    "n": 36
+   },
+   "length_ratio": {
+    "mean": 14.558,
+    "median": 8.75,
+    "n": 36
+   },
+   "novelty": {
+    "mean": 0.907,
+    "median": 0.91,
+    "n": 36
+   },
+   "participial_clauses_per_1k": {
+    "mean": 1.133,
+    "median": 0.0,
+    "n": 36
+   },
+   "restates_question": {
+    "mean": 0.056,
+    "median": 0.0,
+    "n": 36
+   },
+   "word_length": {
+    "mean": 4.677,
+    "median": 4.665,
+    "n": 36
+   },
+   "words": {
+    "mean": 182.667,
+    "median": 191.0,
+    "n": 36
+   }
+  },
+  "claude": {
+   "closing_recap": {
+    "mean": 0,
+    "median": 0.0,
+    "n": 40
+   },
+   "contrast_frames_per_1k": {
+    "mean": 0.0,
+    "median": 0.0,
+    "n": 40
+   },
+   "direct_first_sentence": {
+    "mean": 0.5,
+    "median": 0.5,
+    "n": 4
+   },
+   "echo_fragments_per_1k": {
+    "mean": 0.743,
+    "median": 0.0,
+    "n": 40
+   },
+   "first_sentence_from_question": {
+    "mean": 0.224,
+    "median": 0.18,
+    "n": 40
+   },
+   "importance_flags_per_1k": {
+    "mean": 0.163,
+    "median": 0.0,
+    "n": 40
+   },
+   "length_ratio": {
+    "mean": 23.683,
+    "median": 13.65,
+    "n": 40
+   },
+   "novelty": {
+    "mean": 0.952,
+    "median": 0.96,
+    "n": 40
+   },
+   "participial_clauses_per_1k": {
+    "mean": 2.732,
+    "median": 0.0,
+    "n": 40
+   },
+   "restates_question": {
+    "mean": 0.025,
+    "median": 0.0,
+    "n": 40
+   },
+   "word_length": {
+    "mean": 4.819,
+    "median": 4.815,
+    "n": 40
+   },
+   "words": {
+    "mean": 294.175,
+    "median": 312.5,
+    "n": 40
+   }
+  }
+ }
+}

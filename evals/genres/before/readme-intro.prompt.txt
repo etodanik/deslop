@@ -1,0 +1,1 @@
+Write the opening section of a README for 'tidepool', a command-line tool that downloads NOAA tide predictions for a station ID and prints the next high and low tides. Include install and a usage example.

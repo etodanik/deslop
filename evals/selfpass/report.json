@@ -1,0 +1,228 @@
+{
+ "SKILL.md": {
+  "status": "PASS",
+  "problems": [],
+  "before": {
+   "words": 1578,
+   "claude_tells": 31,
+   "opus5_likeness": 0.63,
+   "echo": 0,
+   "durable_flags": 1,
+   "all_flags": 6,
+   "participial": 4.0,
+   "word_length": 4.83,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "after": {
+   "words": 1589,
+   "claude_tells": 26,
+   "opus5_likeness": 0.44,
+   "echo": 0,
+   "durable_flags": 0,
+   "all_flags": 2,
+   "participial": 4.0,
+   "word_length": 4.81,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "soft_dropped": {
+   "hedges": [
+    "Optional, with `deslop/.venv`: `.venv/bin/python scripts/deep_scan.py draft.md` gives Biber Dimension 1 (a durable register score), semantic redundancy (restatement, in chat and advice) and the most predictable sentences (cut candidates)."
+   ]
+  },
+  "lost_quotes": [
+   "Delve into"
+  ]
+ },
+ "references/data/README.md": {
+  "status": "PASS",
+  "problems": [],
+  "before": {
+   "words": 169,
+   "claude_tells": 1,
+   "opus5_likeness": 0.06,
+   "echo": 0,
+   "durable_flags": 0,
+   "all_flags": 6,
+   "participial": 0.0,
+   "word_length": 4.77,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "after": {
+   "words": 169,
+   "claude_tells": 0,
+   "opus5_likeness": 0.06,
+   "echo": 0,
+   "durable_flags": 0,
+   "all_flags": 6,
+   "participial": 0.0,
+   "word_length": 4.78,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "soft_dropped": {},
+  "lost_quotes": []
+ },
+ "references/patterns.md": {
+  "status": "PASS",
+  "problems": [],
+  "before": {
+   "words": 2165,
+   "claude_tells": 41,
+   "opus5_likeness": 0.66,
+   "echo": 1,
+   "durable_flags": 2,
+   "all_flags": 7,
+   "participial": 2.2,
+   "word_length": 4.54,
+   "importance": 2,
+   "tradeoff": 0
+  },
+  "after": {
+   "words": 2183,
+   "claude_tells": 39,
+   "opus5_likeness": 0.63,
+   "echo": 0,
+   "durable_flags": 2,
+   "all_flags": 7,
+   "participial": 2.2,
+   "word_length": 4.53,
+   "importance": 2,
+   "tradeoff": 0
+  },
+  "soft_dropped": {},
+  "lost_quotes": []
+ },
+ "references/register.md": {
+  "status": "PASS",
+  "problems": [],
+  "before": {
+   "words": 583,
+   "claude_tells": 12,
+   "opus5_likeness": 0.55,
+   "echo": 1,
+   "durable_flags": 2,
+   "all_flags": 8,
+   "participial": 8.8,
+   "word_length": 5.1,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "after": {
+   "words": 588,
+   "claude_tells": 6,
+   "opus5_likeness": 0.11,
+   "echo": 1,
+   "durable_flags": 1,
+   "all_flags": 7,
+   "participial": 8.8,
+   "word_length": 5.1,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "soft_dropped": {},
+  "lost_quotes": []
+ },
+ "references/research.md": {
+  "status": "PASS",
+  "problems": [],
+  "before": {
+   "words": 3261,
+   "claude_tells": 44,
+   "opus5_likeness": 0.49,
+   "echo": 2,
+   "durable_flags": 0,
+   "all_flags": 11,
+   "participial": 5.1,
+   "word_length": 5.14,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "after": {
+   "words": 3267,
+   "claude_tells": 42,
+   "opus5_likeness": 0.46,
+   "echo": 1,
+   "durable_flags": 0,
+   "all_flags": 9,
+   "participial": 5.2,
+   "word_length": 5.14,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "soft_dropped": {
+   "negations": [
+    "High diversity is now the tell, not low.",
+    "Absence is not humanness."
+   ]
+  },
+  "lost_quotes": []
+ },
+ "references/tools.md": {
+  "status": "PASS",
+  "problems": [],
+  "before": {
+   "words": 368,
+   "claude_tells": 5,
+   "opus5_likeness": 0.55,
+   "echo": 0,
+   "durable_flags": 1,
+   "all_flags": 2,
+   "participial": 3.0,
+   "word_length": 4.88,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "after": {
+   "words": 373,
+   "claude_tells": 2,
+   "opus5_likeness": 0.11,
+   "echo": 0,
+   "durable_flags": 0,
+   "all_flags": 1,
+   "participial": 3.0,
+   "word_length": 4.81,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "soft_dropped": {
+   "hedges": [
+    "| `surprisal` | GPT-2 bits per token; spread of sentence-mean surprisal; the most and least predictable sentences | Mean surprisal flips sign by model (Claude/GPT higher than human, Gemini/Llama lower).",
+    "Don't use the level | Diagnostic only: the most predictable sentences are cut candidates (in the test essay they were \"It's important to note\u2026\" and \"In conclusion\u2026\") |"
+   ]
+  },
+  "lost_quotes": []
+ },
+ "sources/MANIFEST.md": {
+  "status": "PASS",
+  "problems": [],
+  "before": {
+   "words": 232,
+   "claude_tells": 3,
+   "opus5_likeness": 0.46,
+   "echo": 0,
+   "durable_flags": 1,
+   "all_flags": 6,
+   "participial": 0.0,
+   "word_length": 4.64,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "after": {
+   "words": 232,
+   "claude_tells": 0,
+   "opus5_likeness": -0.5,
+   "echo": 0,
+   "durable_flags": 1,
+   "all_flags": 6,
+   "participial": 0.0,
+   "word_length": 4.62,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "soft_dropped": {},
+  "lost_quotes": []
+ }
+}

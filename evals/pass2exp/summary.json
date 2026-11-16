@@ -1,0 +1,25 @@
+{
+ "blind": {
+  "human": {
+   "P1": 2,
+   "P2": 3,
+   "tie": 0
+  },
+  "info": {
+   "P1": 3,
+   "P2": 0,
+   "tie": 2
+  },
+  "overall": {
+   "P1": 5,
+   "P2": 0,
+   "tie": 0
+  }
+ },
+ "n_judged": 5,
+ "identical": [
+  "open_qa-18",
+  "open_qa-20",
+  "reddit_eli5-13"
+ ]
+}

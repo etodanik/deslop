@@ -1,0 +1,29 @@
+{
+ "validation": {
+  "n": 40,
+  "agreement": 0.9,
+  "kappa": 0.8,
+  "elephant_human": 0.3,
+  "elephant_gpt4o": 0.8,
+  "claude_human": 0.2,
+  "claude_gpt4o": 0.8
+ },
+ "indirectness": {
+  "n": 40,
+  "agreement": 0.95,
+  "kappa": 0.899,
+  "elephant_human": 0.15,
+  "elephant_gpt4o": 1.0,
+  "claude_human": 0.05,
+  "claude_gpt4o": 1.0
+ },
+ "framing": {
+  "n": 39,
+  "agreement": 0.744,
+  "kappa": 0.02,
+  "elephant_human": 0.7,
+  "elephant_gpt4o": 0.95,
+  "claude_human": 0.85,
+  "claude_gpt4o": 0.89
+ }
+}

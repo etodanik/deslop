@@ -1,0 +1,202 @@
+[
+ {
+  "id": "reddit_eli5-0",
+  "source": "reddit_eli5",
+  "question": "Why do computers slow down as they age? And how can the average user remedy this? Please explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-1",
+  "source": "reddit_eli5",
+  "question": "If I'm riding in an elevator and the cable suddenly snapped, what would happen? Is there a difference if I was only 5 floors up vs. 50 floors up? Explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-2",
+  "source": "reddit_eli5",
+  "question": "How country borders are determined? How are country borders decided to begin with and how are they enforced? What events decides / decided how large a country is / was? Explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-3",
+  "source": "reddit_eli5",
+  "question": "How did everyone in the world come to get last names? Who / what / when / where / why / how did people decide what their last names would be and start an \"official bloodline\" (I guess you could say) Please explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-4",
+  "source": "reddit_eli5",
+  "question": "Why, after both being irradiated by nuclear bombs, are Hiroshima and Nagasaki densely populated? Shouldn't there still be heavy radiation in the area for years to come? Isn't it still dangerous to live there? Explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-5",
+  "source": "reddit_eli5",
+  "question": "Why did blacks have to sit at the BACK of the bus? Why the back, and not the front for example... Also, why is the back of the bus considered ' cool '? Please explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-6",
+  "source": "reddit_eli5",
+  "question": "The Stock Market and why the economy sucks Why does the economy suck right now? How did the banks influence the economy? What does the stock market do with it? Explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-7",
+  "source": "reddit_eli5",
+  "question": "How was Venice Built? I read that the founders were refugees fleeing from the Lombards, I'm not sure how much more history there was to Venice but I wanted to know how the city was built on the water and has lasted this long. Please explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-8",
+  "source": "reddit_eli5",
+  "question": "Why I need 2.5 GB free to install an iOS update when the update is only 268 MB? This makes no sense to my brain... Explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-9",
+  "source": "reddit_eli5",
+  "question": "- Has the Affordable Care Act really been beneficial to Americans? If so, how? Sorry if this seems like a silly question. I really don't know much about it. Please explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-10",
+  "source": "reddit_eli5",
+  "question": "- Hyper - Threading How does it improve performance without adding another physical core? Explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-11",
+  "source": "reddit_eli5",
+  "question": "How is light created? How is light created? What makes the sun give off light? Or a light bulb? Explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-12",
+  "source": "reddit_eli5",
+  "question": "Why is GDP going up or down seen as important for a country? How does it affect people's everyday lives? Explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-13",
+  "source": "reddit_eli5",
+  "question": "Why O.J. Simpson was not convicted? As a non - American, I am still confused. When everyone knew that he had murdered his wife, why was he set free? Please explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-14",
+  "source": "reddit_eli5",
+  "question": "How come hated companies like Comcast and Ubisoft do nt take their criticism into consideration? They get so much hate but nothing seems to get done ever. Please explain like I'm five."
+ },
+ {
+  "id": "reddit_eli5-15",
+  "source": "reddit_eli5",
+  "question": "Why has the world population increased so much in the last ~100 years? Has anything changed for there to be such a dramatic increase? [Here] (URL_0) is a graph that shows the population Explain like I'm five."
+ },
+ {
+  "id": "open_qa-16",
+  "source": "open_qa",
+  "question": "how many times has a player hit for the cycle"
+ },
+ {
+  "id": "open_qa-17",
+  "source": "open_qa",
+  "question": "how south african leaders are elected"
+ },
+ {
+  "id": "open_qa-18",
+  "source": "open_qa",
+  "question": "what is 9/11 bombings"
+ },
+ {
+  "id": "open_qa-19",
+  "source": "open_qa",
+  "question": "how is jerky made"
+ },
+ {
+  "id": "open_qa-20",
+  "source": "open_qa",
+  "question": "what county is Augusta,GA located in?"
+ },
+ {
+  "id": "open_qa-21",
+  "source": "open_qa",
+  "question": "how does a solid state drive work"
+ },
+ {
+  "id": "open_qa-22",
+  "source": "open_qa",
+  "question": "how big is bmc software in houston, tx"
+ },
+ {
+  "id": "open_qa-23",
+  "source": "open_qa",
+  "question": "who is flo from progressive"
+ },
+ {
+  "id": "finance-24",
+  "source": "finance",
+  "question": "Can my company buy my personal debt?"
+ },
+ {
+  "id": "finance-25",
+  "source": "finance",
+  "question": "Can we amend last year's Schedule C to indicate reduced income due to a customer refund this year for a product we sold last year?"
+ },
+ {
+  "id": "finance-26",
+  "source": "finance",
+  "question": "Why bid and ask do not match the price at which the stock is being traded [duplicate]"
+ },
+ {
+  "id": "finance-27",
+  "source": "finance",
+  "question": "Credit card issued against my express refusal; What action can I take?"
+ },
+ {
+  "id": "finance-28",
+  "source": "finance",
+  "question": "First time investor wanting to invest in index funds especially Vanguard"
+ },
+ {
+  "id": "finance-29",
+  "source": "finance",
+  "question": "What legal action can Paypal take against me if I don't pay them and I have a negative balance?"
+ },
+ {
+  "id": "finance-30",
+  "source": "finance",
+  "question": "Advice on preserving wealth in a volatile economic/political country"
+ },
+ {
+  "id": "finance-31",
+  "source": "finance",
+  "question": "Making higher payments on primary residence mortgage or rental?"
+ },
+ {
+  "id": "medicine-32",
+  "source": "medicine",
+  "question": "Having slight pains in knee jointI am 29 years old. Since there was slight pains in knee joint and other joints, I consultaed doctor. In A.S.O. test - it showed ositive in titre in 1:8 i.e.1600 iu / ml.  Also it is hereditary in our family.How severe it is and what is the remedy.Whether this is completely curable."
+ },
+ {
+  "id": "medicine-33",
+  "source": "medicine",
+  "question": "Is having cysts in both lobes of liver a serious condition?a ct scam reveals i have a5.3x3.6cm bilobed cystic abnormality in the subdiaphragmatic segment vlll of the right lobe of liver. multiple tiny 2-3 mm cysts are also seen scattered in both lobes of liver.Is this a serious condition? and what causes this?"
+ },
+ {
+  "id": "medicine-34",
+  "source": "medicine",
+  "question": "Will sexual life be normal again after tearing frenulum?During intercourse two days ago, my uncircumsized fiancee tore his frenulum. He is self treating it with regular cleaning and direct application of Neosporin. I am concerned with the aftermath! Will inteercourse after the frenulum heals be back to normal.. will this incident result in irrectile dissfunction, and will his current      reproductive status change? Please help a soon to be bride with a groom's torn frenulum!"
+ },
+ {
+  "id": "medicine-35",
+  "source": "medicine",
+  "question": "How to cure itchy bumps all over body filled with pus after getting tattooed?Hi My Name Is Jason & I Have A Problem. I resently got a tattoo & i started to get little red itchy bumps all over my body filled with puss, after i used the ointment, i used vasaline, vitamin A&D ointment, and neosporin. the itching is to much. How do i get rid of them."
+ },
+ {
+  "id": "wiki_csai-36",
+  "source": "wiki_csai",
+  "question": "Please explain what is \"Classifier (mathematics)\""
+ },
+ {
+  "id": "wiki_csai-37",
+  "source": "wiki_csai",
+  "question": "Please explain what is \"Human intelligence\""
+ },
+ {
+  "id": "wiki_csai-38",
+  "source": "wiki_csai",
+  "question": "Please explain what is \"Web search\""
+ },
+ {
+  "id": "wiki_csai-39",
+  "source": "wiki_csai",
+  "question": "Please explain what is \"Classifier (machine learning)\""
+ }
+]

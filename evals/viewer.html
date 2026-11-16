@@ -1,0 +1,167 @@
+<title>Deslop Pass Bench</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one column of examples. Picker, two drafts side by side, then single-sentence fixes. */
+:root {
+  --bg: #fbfbfa; --fg: #1b1d1f; --muted: #73787e; --line: #e6e6e3; --mark: #f6dcd6; --mark-line: #c4493a; --good: #2f7a4f;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #121314; --fg: #e8e8e6; --muted: #8d9297; --line: #2a2c2e; --mark: #4a2520; --mark-line: #ff8a78; --good: #7fcf9f; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #121314; --fg: #e8e8e6; --muted: #8d9297; --line: #2a2c2e; --mark: #4a2520; --mark-line: #ff8a78; --good: #7fcf9f; color-scheme: dark }
+
+body { background: var(--bg); color: var(--fg); font: 15px/1.6 var(--sans); }
+.wrap { max-width: 1120px; margin: 0 auto; padding-block: 40px 80px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: 32px; }
+.wrap > * { min-width: 0; }
+h1 { font-size: 1.25rem; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
+h2 { font-size: 0.75rem; font-weight: 500; margin: 0 0 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.08em; }
+.top { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between; }
+select { font: 500 0.9rem var(--sans); color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; max-width: 100%; min-width: 0; }
+.nav { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; min-width: 0; }
+button { font: 500 0.9rem var(--sans); color: var(--fg); background: none; border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; cursor: pointer; }
+button[aria-pressed="false"] { color: var(--muted); }
+button:hover, select:hover { border-color: var(--muted); }
+:focus-visible { outline: 2px solid var(--mark-line); outline-offset: 2px; }
+.prompt { color: var(--muted); font-size: 0.9rem; max-width: 80ch; margin: -16px 0 0; }
+.prompt:empty { display: none; }
+
+.drafts { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+@media (max-width: 820px) { .drafts { grid-template-columns: 1fr; gap: 28px; } }
+.draft { min-width: 0; }
+.draft header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 12px; border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 4px; }
+.draft header h2 { margin: 0; }
+.stats { font: 0.78rem var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.body { overflow-wrap: anywhere; font-size: 0.93rem; }
+.body h1, .body h2, .body h3 { font-size: 0.95rem; text-transform: none; letter-spacing: 0; color: var(--fg); margin: 16px 0 4px; font-weight: 600; }
+.body p, .body li { max-width: 68ch; }
+.body pre { background: none; border-left: 2px solid var(--line); padding: 2px 12px; overflow-x: auto; font-size: 0.8rem; }
+.body code { font: 0.85em var(--mono); }
+mark { background: var(--mark); color: inherit; border-radius: 2px; box-shadow: inset 0 -1px var(--mark-line); }
+.plain mark { background: none; box-shadow: none; }
+.changes { font: 0.78rem var(--mono); color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: -16px; }
+.changes:empty { display: none; }
+.changes s { color: var(--good); }
+.changes b { color: var(--mark-line); font-weight: 500; }
+
+.fix { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: 14px 0; border-top: 1px solid var(--line); }
+@media (max-width: 820px) { .fix { grid-template-columns: 1fr; gap: 6px; } }
+.fix .was { color: var(--muted); }
+.fix .was span.t { text-decoration: line-through; text-decoration-color: var(--mark-line); }
+.fix .tag { font: 0.72rem var(--mono); color: var(--muted); display: block; margin-top: 4px; }
+.fix .cut { color: var(--muted); font-style: italic; }
+.fix code { font: 0.85em var(--mono); }
+@media (prefers-reduced-motion: no-preference) { button, select { transition: border-color .15s; } }
+</style>
+
+<div class="wrap">
+  <div class="top">
+    <h1>Deslop Pass Bench</h1>
+    <div class="nav">
+      <button type="button" id="prev" aria-label="Previous example">←</button>
+      <select id="pick" aria-label="Example"></select>
+      <button type="button" id="next" aria-label="Next example">→</button>
+      <button type="button" id="marks" aria-pressed="true">Marks</button>
+    </div>
+  </div>
+  <p class="prompt" id="prompt"></p>
+
+  <section class="drafts" id="drafts" aria-label="Before and after">
+    <article class="draft"><header><h2 id="labelB">Before</h2><span class="stats" id="statsB"></span></header><div class="body" id="before"></div></article>
+    <article class="draft"><header><h2 id="labelA">After</h2><span class="stats" id="statsA"></span></header><div class="body" id="after"></div></article>
+  </section>
+  <div class="changes" id="changes"></div>
+
+  <section aria-labelledby="fixTitle">
+    <h2 id="fixTitle">Sentence by sentence</h2>
+    <div id="fixes"></div>
+  </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+<script src="viewer_data.js"></script>
+<script>
+(() => {
+  const D = window.DESLOP;
+  const $ = id => document.getElementById(id);
+  if (!D) { $('drafts').textContent = 'viewer_data.js failed to load.'; return; }
+
+  // Highlighting: flagged words, stock phrases, jargon verbs, -ing tails, contrast frames, em dashes, personified code.
+  const toRe = pats => pats.map(p => new RegExp(p.startsWith('^') ? p : `\\b(?:${p})\\b`, 'gi' + (p.startsWith('^') ? 'm' : '')));
+  const ingNot = new Set(D.lex.ingNot);
+  const PERSON = /\b(?:user|users|developer|team|people|person|author|reviewer|customer|someone|he|she|they|we|you|i)\b/i;
+  const RULES = [
+    ...toRe(D.lex.flagged).map(re => [re, null]), ...toRe(D.lex.stock).map(re => [re, null]), ...toRe(D.lex.denominal).map(re => [re, null]),
+    [/(?:,|—|–)\s+(?:also\s+)?[a-z]{2,}ing\b/g, s => { const w = s.replace(/^[,—–]\s+(also\s+)?/, '').toLowerCase(); return w.length >= 5 && !ingNot.has(w); }],
+    [/\bnot (?:just|only|merely|simply)\b[^.?!]{0,80}?\b(?:but|it'?s|it is)\b/gi, null],
+    [/\b(?:isn'?t|aren'?t|wasn'?t) (?:just|only|merely|simply)\b/gi, null],
+    [/—/g, null],
+    [new RegExp(`\\b(?:the|this|that|it|a|an|its)(?:\\s+[a-z-]+){0,2}\\s+(?:${D.lex.animate.join('|')})\\b`, 'gi'), s => !PERSON.test(s.split(/\s+/).slice(0, -1).join(' '))],
+  ];
+  function marksIn(text) {
+    const found = [];
+    for (const [re, ok] of RULES) { re.lastIndex = 0; let m;
+      while ((m = re.exec(text))) { if (!m[0].length) { re.lastIndex++; continue; } if (!ok || ok(m[0])) found.push([m.index, m.index + m[0].length]); } }
+    found.sort((a, b) => a[0] - b[0] || b[1] - a[1]);
+    const out = []; let end = -1;
+    for (const f of found) if (f[0] >= end) { out.push(f); end = f[1]; }
+    return out;
+  }
+  function highlight(root) {
+    const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => n.parentElement.closest('pre, code') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+    const nodes = []; while (w.nextNode()) nodes.push(w.currentNode);
+    for (const node of nodes) {
+      const t = node.nodeValue, ms = marksIn(t);
+      if (!ms.length) continue;
+      const frag = document.createDocumentFragment(); let pos = 0;
+      for (const [a, b] of ms) { if (a > pos) frag.append(t.slice(pos, a)); const mk = document.createElement('mark'); mk.textContent = t.slice(a, b); frag.append(mk); pos = b; }
+      if (pos < t.length) frag.append(t.slice(pos));
+      node.replaceWith(frag);
+    }
+  }
+  const esc = s => s.replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c]);
+  const md = s => window.marked ? marked.parse(s, { mangle: false, headerIds: false }) : `<p>${esc(s)}</p>`;
+  function render(el, text) { el.innerHTML = md(text); highlight(el); }
+  const stats = s => `${s.words} words · ${s.flags.length} flags · ${s.claude} Claude tells`;
+
+  const pick = $('pick');
+  let group = null, og = null;
+  D.pairs.forEach((p, i) => {
+    if (p.group !== group) { group = p.group; og = document.createElement('optgroup'); og.label = group; pick.append(og); }
+    const o = document.createElement('option'); o.value = i; o.textContent = p.title; og.append(o);
+  });
+
+  function show(i) {
+    i = (i + D.pairs.length) % D.pairs.length;
+    const p = D.pairs[i];
+    pick.value = String(i);
+    $('prompt').textContent = p.prompt || '';
+    $('labelB').textContent = p.labels[0]; $('labelA').textContent = p.labels[1];
+    $('statsB').textContent = stats(p.sb); $('statsA').textContent = stats(p.sa);
+    render($('before'), p.before); render($('after'), p.after);
+    const fixed = p.sb.flags.filter(f => !p.sa.flags.includes(f)), added = p.sa.flags.filter(f => !p.sb.flags.includes(f));
+    $('changes').innerHTML = [...fixed.map(f => `<s>${f}</s>`), ...added.map(f => `<b>+ ${f}</b>`)].join('');
+    try { localStorage.setItem('deslop-i', String(i)); } catch (e) {}
+  }
+  pick.addEventListener('change', () => show(+pick.value));
+  $('prev').addEventListener('click', () => show(+pick.value - 1));
+  $('next').addEventListener('click', () => show(+pick.value + 1));
+  $('marks').addEventListener('click', e => { const on = e.currentTarget.getAttribute('aria-pressed') !== 'true';
+    e.currentTarget.setAttribute('aria-pressed', String(on)); $('drafts').classList.toggle('plain', !on); });
+  document.addEventListener('keydown', e => { if (e.target.closest && e.target.closest('select')) return;
+    if (e.key === 'ArrowLeft') show(+pick.value - 1); if (e.key === 'ArrowRight') show(+pick.value + 1); });
+
+  const inline = s => (window.marked ? marked.parseInline(s) : esc(s));
+  $('fixes').innerHTML = D.fixes.map(([tag, was, now]) =>
+    `<div class="fix"><div class="was"><span class="t">${inline(was)}</span><span class="tag">${esc(tag)}</span></div><div>${now ? inline(now) : '<span class="cut">cut</span>'}</div></div>`).join('');
+
+  let start = 0;
+  try { start = +(localStorage.getItem('deslop-i') || 0) || 0; } catch (e) {}
+  show(Math.min(start, D.pairs.length - 1));
+})();
+</script>

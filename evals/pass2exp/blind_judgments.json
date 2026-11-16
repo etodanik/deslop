@@ -1,0 +1,7 @@
+{
+ "medicine-34": {"human": 2, "info": "tie", "overall": 2, "diff": "\"During healing\" vs \"While it heals\"", "reason": "The verb phrase is more conversational than the nominalized one; content is identical."},
+ "reddit_eli5-5": {"human": 1, "info": 2, "overall": 2, "diff": "V2 adds \"As for why the back and not the front:\"; \"is rebellious\" vs \"feels rebellious\"", "reason": "V2's lead-in explicitly answers the user's 'why the back' question and \"feels\" is more natural, though the signpost is slightly formulaic."},
+ "reddit_eli5-8": {"human": 2, "info": "tie", "overall": 2, "diff": "\"as you swap\" vs \"while you swap\"; \"for some time\" vs \"for a while\"; \"saves a backup\" vs \"keeps a backup\"", "reason": "V2's word choices are plainer and more casual with the same information."},
+ "wiki_csai-38": {"human": 2, "info": 1, "overall": 1, "diff": "\"votes of importance\" vs \"votes\"; \"Concerns\" vs \"Worries\"; \"When\" vs \"Once\"; \"query into\" vs \"query in\"", "reason": "V1 keeps the precise 'votes of importance' explanation, which outweighs V2's marginally more casual wording."},
+ "wiki_csai-39": {"human": 2, "info": 1, "overall": 1, "diff": "\"one of the most common tasks\" vs \"a common task\"; \"often a probability\" vs \"usually a probability\"", "reason": "V1 is more precise and hedged correctly ('often'), while V2's 'usually' and weaker claim read slightly plainer but lose a little accuracy."}
+}

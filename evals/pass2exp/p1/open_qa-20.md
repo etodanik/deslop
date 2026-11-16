@@ -1,0 +1,1 @@
+Augusta is in Richmond County, Georgia. It's a consolidated city-county government, called Augusta-Richmond County, and a small part of the city reaches into neighboring Columbia County. The Savannah River runs along the South Carolina border there, and the city hosts the Masters golf tournament.

@@ -1,0 +1,50 @@
+[
+ {
+  "id": "email-delay",
+  "genre": "email",
+  "title": "Work email",
+  "prompt": "Write an email to a client telling them their website launch will slip two weeks, from March 3 to March 17, because the payment provider's API review is taking longer than planned. Offer a call this week."
+ },
+ {
+  "id": "cover-letter",
+  "genre": "email",
+  "title": "Cover letter",
+  "prompt": "Write a short cover letter for a backend engineer with 6 years of Go and Postgres experience applying to a mid-size logistics company. They led a migration that cut p99 latency from 900 ms to 180 ms."
+ },
+ {
+  "id": "launch-post",
+  "genre": "marketing",
+  "title": "Product announcement",
+  "prompt": "Write a short blog post announcing that our note-taking app now syncs offline edits and resolves conflicts automatically. It ships today on iOS and Android; desktop follows next month."
+ },
+ {
+  "id": "readme-intro",
+  "genre": "docs",
+  "title": "README intro",
+  "prompt": "Write the opening section of a README for 'tidepool', a command-line tool that downloads NOAA tide predictions for a station ID and prints the next high and low tides. Include install and a usage example."
+ },
+ {
+  "id": "pr-description",
+  "genre": "code",
+  "title": "PR description",
+  "prompt": "Write a pull request description for a change that replaces our hand-rolled retry loop in the billing worker with exponential backoff and jitter, adds a max of 5 attempts, and adds tests. It fixes a bug where failed charges retried every second forever."
+ },
+ {
+  "id": "op-ed",
+  "genre": "essay",
+  "title": "Op-ed",
+  "prompt": "Write three paragraphs of an op-ed arguing that cities should remove parking minimums for new apartment buildings."
+ },
+ {
+  "id": "story-open",
+  "genre": "fiction",
+  "title": "Story opening",
+  "prompt": "Write the opening 200 words of a short story about a lighthouse keeper who finds a stranger's boot on the rocks after a storm."
+ },
+ {
+  "id": "status-update",
+  "genre": "chat",
+  "title": "Status update",
+  "prompt": "Write a weekly status update to my team: the data pipeline migration is 70% done, two tables are blocked on a schema decision from the analytics team, and we found that the nightly job was silently skipping rows with null timestamps; that's now fixed."
+ }
+]

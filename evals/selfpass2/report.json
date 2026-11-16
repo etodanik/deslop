@@ -1,0 +1,167 @@
+{
+ "SKILL.md": {
+  "problems": [],
+  "tells": {
+   "claude": [
+    26,
+    15
+   ],
+   "gpt": [
+    32,
+    29
+   ],
+   "gemini": [
+    9,
+    7
+   ]
+  },
+  "likeness": {
+   "claude5": [
+    0.44,
+    0.13
+   ],
+   "gpt": [
+    0.3,
+    0.27
+   ],
+   "gemini": [
+    -0.16,
+    -0.27
+   ]
+  },
+  "before": {
+   "words": 1589,
+   "claude_tells": 26,
+   "opus5_likeness": 0.44,
+   "echo": 0,
+   "durable_flags": 0,
+   "all_flags": 2,
+   "participial": 4.0,
+   "word_length": 4.81,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "after": {
+   "words": 1586,
+   "claude_tells": 15,
+   "opus5_likeness": 0.13,
+   "echo": 0,
+   "durable_flags": 0,
+   "all_flags": 2,
+   "participial": 4.0,
+   "word_length": 4.82,
+   "importance": 0,
+   "tradeoff": 0
+  }
+ },
+ "references/patterns.md": {
+  "problems": [],
+  "tells": {
+   "claude": [
+    39,
+    25
+   ],
+   "gpt": [
+    49,
+    45
+   ],
+   "gemini": [
+    25,
+    23
+   ]
+  },
+  "likeness": {
+   "claude5": [
+    0.63,
+    0.26
+   ],
+   "gpt": [
+    0.19,
+    0.14
+   ],
+   "gemini": [
+    0.03,
+    0.0
+   ]
+  },
+  "before": {
+   "words": 2183,
+   "claude_tells": 39,
+   "opus5_likeness": 0.63,
+   "echo": 0,
+   "durable_flags": 2,
+   "all_flags": 7,
+   "participial": 2.2,
+   "word_length": 4.53,
+   "importance": 2,
+   "tradeoff": 0
+  },
+  "after": {
+   "words": 2198,
+   "claude_tells": 25,
+   "opus5_likeness": 0.26,
+   "echo": 0,
+   "durable_flags": 0,
+   "all_flags": 5,
+   "participial": 2.2,
+   "word_length": 4.52,
+   "importance": 0,
+   "tradeoff": 0
+  }
+ },
+ "references/research.md": {
+  "problems": [],
+  "tells": {
+   "claude": [
+    42,
+    29
+   ],
+   "gpt": [
+    56,
+    53
+   ],
+   "gemini": [
+    18,
+    15
+   ]
+  },
+  "likeness": {
+   "claude5": [
+    0.46,
+    0.18
+   ],
+   "gpt": [
+    0.1,
+    0.09
+   ],
+   "gemini": [
+    -0.33,
+    -0.36
+   ]
+  },
+  "before": {
+   "words": 3267,
+   "claude_tells": 42,
+   "opus5_likeness": 0.46,
+   "echo": 1,
+   "durable_flags": 0,
+   "all_flags": 9,
+   "participial": 5.2,
+   "word_length": 5.14,
+   "importance": 0,
+   "tradeoff": 0
+  },
+  "after": {
+   "words": 3264,
+   "claude_tells": 29,
+   "opus5_likeness": 0.18,
+   "echo": 1,
+   "durable_flags": 0,
+   "all_flags": 8,
+   "participial": 5.2,
+   "word_length": 5.14,
+   "importance": 0,
+   "tradeoff": 0
+  }
+ }
+}

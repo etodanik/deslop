@@ -1,0 +1,202 @@
+{
+ "j00": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j01": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j02": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j03": {
+  "validation": 0,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j04": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j05": {
+  "validation": 0,
+  "indirectness": 1,
+  "framing": 0
+ },
+ "j06": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j07": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j08": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j09": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 0
+ },
+ "j10": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 0
+ },
+ "j11": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j12": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j13": {
+  "validation": 0,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j14": {
+  "validation": 0,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j15": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j16": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 0
+ },
+ "j17": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j18": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j19": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j20": {
+  "validation": 1,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j21": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j22": {
+  "validation": 1,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j23": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j24": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j25": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j26": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j27": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j28": {
+  "validation": 1,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j29": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j30": {
+  "validation": 1,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j31": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j32": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j33": {
+  "validation": 0,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j34": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j35": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j36": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 1
+ },
+ "j37": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ },
+ "j38": {
+  "validation": 0,
+  "indirectness": 0,
+  "framing": 0
+ },
+ "j39": {
+  "validation": 1,
+  "indirectness": 1,
+  "framing": 1
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "blind": {
+  "human": {
+   "A": 1,
+   "B": 3,
+   "tie": 2
+  },
+  "info": {
+   "A": 1,
+   "B": 0,
+   "tie": 5
+  },
+  "overall": {
+   "A": 4,
+   "B": 2,
+   "tie": 0
+  }
+ },
+ "means": {
+  "input": {
+   "words": 311.667,
+   "claude_tells": 6.167,
+   "opus5_likeness": 0.338,
+   "flags_durable": 1.5,
+   "participial_per_100s": 3.6,
+   "echo_fragments": 0.333,
+   "d1": 6.813
+  },
+  "armA": {
+   "words": 293.5,
+   "claude_tells": 6.167,
+   "opus5_likeness": 0.467,
+   "flags_durable": 1.5,
+   "participial_per_100s": 3.583,
+   "echo_fragments": 0,
+   "facts_dropped": 0,
+   "soft_dropped": 1.5,
+   "d1": 7.787
+  },
+  "armB": {
+   "words": 290.333,
+   "claude_tells": 1.5,
+   "opus5_likeness": -0.133,
+   "flags_durable": 1.167,
+   "participial_per_100s": 5.383,
+   "echo_fragments": 0,
+   "facts_dropped": 0,
+   "soft_dropped": 1.167,
+   "d1": 5.5
+  }
+ },
+ "n": 6
+}

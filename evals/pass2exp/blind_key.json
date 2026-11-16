@@ -1,0 +1,25 @@
+{
+ "medicine-34": {
+  "version_1": "P2",
+  "version_2": "P1"
+ },
+ "open_qa-18": "identical",
+ "open_qa-20": "identical",
+ "reddit_eli5-13": "identical",
+ "reddit_eli5-5": {
+  "version_1": "P2",
+  "version_2": "P1"
+ },
+ "reddit_eli5-8": {
+  "version_1": "P2",
+  "version_2": "P1"
+ },
+ "wiki_csai-38": {
+  "version_1": "P1",
+  "version_2": "P2"
+ },
+ "wiki_csai-39": {
+  "version_1": "P1",
+  "version_2": "P2"
+ }
+}

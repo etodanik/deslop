@@ -1,0 +1,1 @@
+Write a short blog post announcing that our note-taking app now syncs offline edits and resolves conflicts automatically. It ships today on iOS and Android; desktop follows next month.

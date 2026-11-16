@@ -1,0 +1,449 @@
+{
+ "topics": 1000,
+ "corpora": {
+  "human": {
+   "docs": 1000,
+   "words": 861395,
+   "metrics": {
+    "echo_fragments": {
+     "per_1k": 0.147,
+     "doc_share": 0.101
+    },
+    "count_fragments": {
+     "per_1k": 0.57,
+     "doc_share": 0.202
+    },
+    "staged_reveals": {
+     "per_1k": 0.05,
+     "doc_share": 0.039
+    },
+    "contrast_frames": {
+     "per_1k": 0.209,
+     "doc_share": 0.133
+    },
+    "concessive_frames": {
+     "per_1k": 0.369,
+     "doc_share": 0.224
+    },
+    "tradeoff_dodges": {
+     "per_1k": 0.045,
+     "doc_share": 0.032
+    },
+    "importance_flags": {
+     "per_1k": 0.01,
+     "doc_share": 0.008
+    },
+    "mannered_frames": {
+     "per_1k": 0.003,
+     "doc_share": 0.003
+    },
+    "inanimate_agents": {
+     "per_1k": 0.34,
+     "doc_share": 0.2
+    },
+    "denominal_verbs": {
+     "per_1k": 0.075,
+     "doc_share": 0.053
+    },
+    "meta_reference": {
+     "per_1k": 0.08,
+     "doc_share": 0.055
+    },
+    "copula_avoidance": {
+     "per_1k": 0.109,
+     "doc_share": 0.077
+    },
+    "that_subjects": {
+     "per_1k": 0.099,
+     "doc_share": 0.071
+    },
+    "participial_clauses": {
+     "per_1k": 2.685,
+     "doc_share": 0.704
+    },
+    "triads": {
+     "per_1k": 6.965,
+     "doc_share": 0.93
+    },
+    "intensifiers": {
+     "per_1k": 0.615,
+     "doc_share": 0.326
+    },
+    "stock_phrases": {
+     "per_1k": 0.474,
+     "doc_share": 0.247
+    }
+   }
+  },
+  "claude-opus-5": {
+   "docs": 1000,
+   "words": 955331,
+   "metrics": {
+    "echo_fragments": {
+     "per_1k": 0.386,
+     "doc_share": 0.259
+    },
+    "count_fragments": {
+     "per_1k": 0.712,
+     "doc_share": 0.36
+    },
+    "staged_reveals": {
+     "per_1k": 0.154,
+     "doc_share": 0.116
+    },
+    "contrast_frames": {
+     "per_1k": 0.502,
+     "doc_share": 0.356
+    },
+    "concessive_frames": {
+     "per_1k": 0.087,
+     "doc_share": 0.079
+    },
+    "tradeoff_dodges": {
+     "per_1k": 0.111,
+     "doc_share": 0.091
+    },
+    "importance_flags": {
+     "per_1k": 0.267,
+     "doc_share": 0.234
+    },
+    "mannered_frames": {
+     "per_1k": 0.082,
+     "doc_share": 0.076
+    },
+    "inanimate_agents": {
+     "per_1k": 0.658,
+     "doc_share": 0.387
+    },
+    "denominal_verbs": {
+     "per_1k": 0.163,
+     "doc_share": 0.117
+    },
+    "meta_reference": {
+     "per_1k": 0.06,
+     "doc_share": 0.057
+    },
+    "copula_avoidance": {
+     "per_1k": 0.109,
+     "doc_share": 0.097
+    },
+    "that_subjects": {
+     "per_1k": 0.037,
+     "doc_share": 0.035
+    },
+    "participial_clauses": {
+     "per_1k": 5.415,
+     "doc_share": 0.964
+    },
+    "triads": {
+     "per_1k": 12.551,
+     "doc_share": 0.982
+    },
+    "intensifiers": {
+     "per_1k": 1.561,
+     "doc_share": 0.644
+    },
+    "stock_phrases": {
+     "per_1k": 0.223,
+     "doc_share": 0.179
+    }
+   }
+  },
+  "gpt-6-astra": {
+   "docs": 1000,
+   "words": 897671,
+   "metrics": {
+    "echo_fragments": {
+     "per_1k": 0.084,
+     "doc_share": 0.067
+    },
+    "count_fragments": {
+     "per_1k": 0.466,
+     "doc_share": 0.283
+    },
+    "staged_reveals": {
+     "per_1k": 0.053,
+     "doc_share": 0.045
+    },
+    "contrast_frames": {
+     "per_1k": 0.907,
+     "doc_share": 0.5
+    },
+    "concessive_frames": {
+     "per_1k": 0.197,
+     "doc_share": 0.158
+    },
+    "tradeoff_dodges": {
+     "per_1k": 0.365,
+     "doc_share": 0.247
+    },
+    "importance_flags": {
+     "per_1k": 0.306,
+     "doc_share": 0.241
+    },
+    "mannered_frames": {
+     "per_1k": 0.016,
+     "doc_share": 0.014
+    },
+    "inanimate_agents": {
+     "per_1k": 0.455,
+     "doc_share": 0.272
+    },
+    "denominal_verbs": {
+     "per_1k": 0.131,
+     "doc_share": 0.061
+    },
+    "meta_reference": {
+     "per_1k": 0.002,
+     "doc_share": 0.002
+    },
+    "copula_avoidance": {
+     "per_1k": 0.074,
+     "doc_share": 0.061
+    },
+    "that_subjects": {
+     "per_1k": 0.003,
+     "doc_share": 0.003
+    },
+    "participial_clauses": {
+     "per_1k": 6.561,
+     "doc_share": 0.972
+    },
+    "triads": {
+     "per_1k": 14.113,
+     "doc_share": 0.979
+    },
+    "intensifiers": {
+     "per_1k": 0.375,
+     "doc_share": 0.255
+    },
+    "stock_phrases": {
+     "per_1k": 0.463,
+     "doc_share": 0.325
+    }
+   }
+  },
+  "gemini-3-1-pro-preview": {
+   "docs": 1000,
+   "words": 664157,
+   "metrics": {
+    "echo_fragments": {
+     "per_1k": 0.053,
+     "doc_share": 0.032
+    },
+    "count_fragments": {
+     "per_1k": 0.271,
+     "doc_share": 0.14
+    },
+    "staged_reveals": {
+     "per_1k": 0.087,
+     "doc_share": 0.056
+    },
+    "contrast_frames": {
+     "per_1k": 0.512,
+     "doc_share": 0.263
+    },
+    "concessive_frames": {
+     "per_1k": 1.093,
+     "doc_share": 0.459
+    },
+    "tradeoff_dodges": {
+     "per_1k": 0.172,
+     "doc_share": 0.101
+    },
+    "importance_flags": {
+     "per_1k": 0.11,
+     "doc_share": 0.07
+    },
+    "mannered_frames": {
+     "per_1k": 0.008,
+     "doc_share": 0.005
+    },
+    "inanimate_agents": {
+     "per_1k": 0.581,
+     "doc_share": 0.274
+    },
+    "denominal_verbs": {
+     "per_1k": 0.119,
+     "doc_share": 0.068
+    },
+    "meta_reference": {
+     "per_1k": 0.125,
+     "doc_share": 0.076
+    },
+    "copula_avoidance": {
+     "per_1k": 0.503,
+     "doc_share": 0.244
+    },
+    "that_subjects": {
+     "per_1k": 0.108,
+     "doc_share": 0.063
+    },
+    "participial_clauses": {
+     "per_1k": 7.298,
+     "doc_share": 0.929
+    },
+    "triads": {
+     "per_1k": 8.153,
+     "doc_share": 0.934
+    },
+    "intensifiers": {
+     "per_1k": 5.547,
+     "doc_share": 0.898
+    },
+    "stock_phrases": {
+     "per_1k": 1.595,
+     "doc_share": 0.581
+    }
+   }
+  },
+  "gpt41": {
+   "docs": 1000,
+   "words": 868279,
+   "metrics": {
+    "echo_fragments": {
+     "per_1k": 0.036,
+     "doc_share": 0.03
+    },
+    "count_fragments": {
+     "per_1k": 0.241,
+     "doc_share": 0.145
+    },
+    "staged_reveals": {
+     "per_1k": 0.132,
+     "doc_share": 0.106
+    },
+    "contrast_frames": {
+     "per_1k": 1.706,
+     "doc_share": 0.679
+    },
+    "concessive_frames": {
+     "per_1k": 0.842,
+     "doc_share": 0.446
+    },
+    "tradeoff_dodges": {
+     "per_1k": 0.155,
+     "doc_share": 0.11
+    },
+    "importance_flags": {
+     "per_1k": 0.089,
+     "doc_share": 0.069
+    },
+    "mannered_frames": {
+     "per_1k": 0.006,
+     "doc_share": 0.005
+    },
+    "inanimate_agents": {
+     "per_1k": 0.296,
+     "doc_share": 0.209
+    },
+    "denominal_verbs": {
+     "per_1k": 0.122,
+     "doc_share": 0.082
+    },
+    "meta_reference": {
+     "per_1k": 0.231,
+     "doc_share": 0.184
+    },
+    "copula_avoidance": {
+     "per_1k": 0.32,
+     "doc_share": 0.236
+    },
+    "that_subjects": {
+     "per_1k": 0.099,
+     "doc_share": 0.077
+    },
+    "participial_clauses": {
+     "per_1k": 8.366,
+     "doc_share": 0.979
+    },
+    "triads": {
+     "per_1k": 14.495,
+     "doc_share": 0.985
+    },
+    "intensifiers": {
+     "per_1k": 0.865,
+     "doc_share": 0.491
+    },
+    "stock_phrases": {
+     "per_1k": 1.304,
+     "doc_share": 0.627
+    }
+   }
+  },
+  "claude-opus-4-20250514": {
+   "docs": 1000,
+   "words": 940343,
+   "metrics": {
+    "echo_fragments": {
+     "per_1k": 0.024,
+     "doc_share": 0.022
+    },
+    "count_fragments": {
+     "per_1k": 0.197,
+     "doc_share": 0.133
+    },
+    "staged_reveals": {
+     "per_1k": 0.048,
+     "doc_share": 0.043
+    },
+    "contrast_frames": {
+     "per_1k": 1.062,
+     "doc_share": 0.517
+    },
+    "concessive_frames": {
+     "per_1k": 1.271,
+     "doc_share": 0.607
+    },
+    "tradeoff_dodges": {
+     "per_1k": 0.675,
+     "doc_share": 0.381
+    },
+    "importance_flags": {
+     "per_1k": 0.108,
+     "doc_share": 0.092
+    },
+    "mannered_frames": {
+     "per_1k": 0.01,
+     "doc_share": 0.008
+    },
+    "inanimate_agents": {
+     "per_1k": 0.468,
+     "doc_share": 0.306
+    },
+    "denominal_verbs": {
+     "per_1k": 0.122,
+     "doc_share": 0.075
+    },
+    "meta_reference": {
+     "per_1k": 0.023,
+     "doc_share": 0.021
+    },
+    "copula_avoidance": {
+     "per_1k": 0.583,
+     "doc_share": 0.383
+    },
+    "that_subjects": {
+     "per_1k": 0.069,
+     "doc_share": 0.057
+    },
+    "participial_clauses": {
+     "per_1k": 9.285,
+     "doc_share": 0.991
+    },
+    "triads": {
+     "per_1k": 9.121,
+     "doc_share": 0.968
+    },
+    "intensifiers": {
+     "per_1k": 1.027,
+     "doc_share": 0.544
+    },
+    "stock_phrases": {
+     "per_1k": 1.13,
+     "doc_share": 0.6
+    }
+   }
+  }
+ }
+}

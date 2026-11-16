@@ -1,0 +1,1 @@
+Write an email to a client telling them their website launch will slip two weeks, from March 3 to March 17, because the payment provider's API review is taking longer than planned. Offer a call this week.

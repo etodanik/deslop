@@ -1,0 +1,8 @@
+{
+ "finance-24": {"human": 2, "info": "tie", "overall": 2, "reason": "Both keep every caveat, but version 2 folds the alternatives into a conversational sentence and avoids the semicolon-packed list of version 1."},
+ "medicine-32": {"human": "tie", "info": 1, "overall": 1, "reason": "Both are natural prose, but version 1 explicitly addresses severity and curability and drops the stock closing pleasantry."},
+ "open_qa-17": {"human": 2, "info": "tie", "overall": 1, "reason": "Version 2 reads more like prose but version 1's short bullet list for the lower levels is easier to scan and carries the same facts."},
+ "reddit_eli5-0": {"human": 2, "info": "tie", "overall": 2, "reason": "Version 2 has a bit more voice (ages, blow the dust out) and drops the heavy bold on every step while keeping all nine fixes."},
+ "reddit_eli5-4": {"human": "tie", "info": "tie", "overall": 2, "reason": "Nearly identical content; version 2 flows slightly more naturally into the final safety answer."},
+ "wiki_csai-37": {"human": 2, "info": "tie", "overall": 1, "reason": "Version 2 sounds a little less templated, but version 1's labeled sections make the long overview easier to navigate with the same information."}
+}

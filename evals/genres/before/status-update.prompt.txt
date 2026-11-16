@@ -1,0 +1,1 @@
+Write a weekly status update to my team: the data pipeline migration is 70% done, two tables are blocked on a schema decision from the analytics team, and we found that the nightly job was silently skipping rows with null timestamps; that's now fixed.

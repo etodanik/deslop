@@ -1,0 +1,26 @@
+{
+ "finance-24": {
+  "version_1": "A",
+  "version_2": "B"
+ },
+ "medicine-32": {
+  "version_1": "A",
+  "version_2": "B"
+ },
+ "open_qa-17": {
+  "version_1": "A",
+  "version_2": "B"
+ },
+ "reddit_eli5-0": {
+  "version_1": "B",
+  "version_2": "A"
+ },
+ "reddit_eli5-4": {
+  "version_1": "A",
+  "version_2": "B"
+ },
+ "wiki_csai-37": {
+  "version_1": "A",
+  "version_2": "B"
+ }
+}

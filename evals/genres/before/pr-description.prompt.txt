@@ -1,0 +1,1 @@
+Write a pull request description for a change that replaces our hand-rolled retry loop in the billing worker with exponential backoff and jitter, adds a max of 5 attempts, and adds tests. It fixes a bug where failed charges retried every second forever.

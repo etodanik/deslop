@@ -1,0 +1,8 @@
+# Third-party text kept for local analysis only (see sources/MANIFEST.md); not redistributable.
+sources/raw/
+sources/papers/
+# Local environment and caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

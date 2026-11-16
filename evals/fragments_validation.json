@@ -1,0 +1,47 @@
+{
+ "graphite:human": {
+  "per_100_sentences": 12.57,
+  "share_with_any": 0.817,
+  "n": 120
+ },
+ "graphite:claude-opus-5": {
+  "per_100_sentences": 12.86,
+  "share_with_any": 0.975,
+  "n": 120
+ },
+ "graphite:gpt-6-astra": {
+  "per_100_sentences": 10.61,
+  "share_with_any": 0.983,
+  "n": 120
+ },
+ "graphite:gemini-3-1-pro-preview": {
+  "per_100_sentences": 10.46,
+  "share_with_any": 0.95,
+  "n": 120
+ },
+ "elephant:Human": {
+  "per_100_sentences": 4.73,
+  "share_with_any": 0.365,
+  "n": 63
+ },
+ "elephant:Claude": {
+  "per_100_sentences": 2.84,
+  "share_with_any": 0.2,
+  "n": 120
+ },
+ "elephant:GPT-5": {
+  "per_100_sentences": 10.13,
+  "share_with_any": 0.9,
+  "n": 120
+ },
+ "elephant:Gemini": {
+  "per_100_sentences": 4.49,
+  "share_with_any": 0.723,
+  "n": 119
+ },
+ "elephant:Llama-70B": {
+  "per_100_sentences": 2.74,
+  "share_with_any": 0.42,
+  "n": 119
+ }
+}

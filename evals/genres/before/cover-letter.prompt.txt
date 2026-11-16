@@ -1,0 +1,1 @@
+Write a short cover letter for a backend engineer with 6 years of Go and Postgres experience applying to a mid-size logistics company. They led a migration that cut p99 latency from 900 ms to 180 ms.
