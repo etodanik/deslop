@@ -68,4 +68,4 @@ The rules come from Reinhart et al. (2025), Terčon & Dobrovoljc (2025), Clark, 
 
 ## Licensing
 
-The skill's code and docs are this project's own. `references/data/` includes Graphite measurements under CC BY 4.0, with credit. `evals/` includes short excerpts from HC3 (Guo et al. 2023, CC BY-SA 4.0) and ELEPHANT (Cheng et al. 2026, CC0) for the bench and the judge check. `sources/raw/` and `sources/papers/` hold third-party text for local analysis only. Don't redistribute them.
+The skill's code and docs are released under the MIT License (see [`LICENSE.md`](LICENSE.md)). `references/data/` includes Graphite measurements under CC BY 4.0, with credit. `evals/` includes short excerpts from HC3 (Guo et al. 2023, CC BY-SA 4.0) and ELEPHANT (Cheng et al. 2026, CC0) for the bench and the judge check. `sources/raw/` and `sources/papers/` hold third-party text for local analysis only. Don't redistribute them.
