@@ -26,6 +26,12 @@ cp -r deslop ~/.claude/skills/deslop
 
 Then ask Claude to "deslop this", "make this sound less like AI", or "run a slop pass" on a draft.
 
+## Compared with other approaches
+
+Most de-slop skills hand the model a list of things to avoid and ask for a rewrite. Without a check, the rewrite often swaps one tell for another: in this repo's tests, a Claude reviser left every Claude tell in place (6.2 per answer before and after) until a check listed them sentence by sentence. deslop scans each pass before and after, and it makes its tell lists from data you can regenerate as models change. In Graphite's data, 55–72% of a model family's tells turn over between releases.
+
+Plain-language standards such as Simple English and ISO 24495 fit text to one format. That's right for documents that must meet a standard, but uniform prose is a model signal too: human sentence lengths have a long tail that current models lack. deslop aims for the range a good human writer shows in the genre instead.
+
 ## The pass
 
 1. Pick the genre and reader (chat, email, docs, code, essay, academic, fiction, marketing).
